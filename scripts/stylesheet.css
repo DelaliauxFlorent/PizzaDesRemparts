@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'BlackChanceryRegular';
+    src: url('../include/font/blkchcry-webfont.eot');
+    src: url('../include/font/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../include/font/blkchcry-webfont.woff') format('woff'),
+         url('../include/font/blkchcry-webfont.ttf') format('truetype'),
+         url('../include/font/blkchcry-webfont.svg#BlackChanceryRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3 {
+	text-decoration:underline;
+}
+
+body {
+	background-image: url(../img/Fond/indexfond.jpg);
+	font-family:BlackChanceryRegular, Times, sans-serif;
+	background-attachment:fixed;
+}
+
+label
+{
+	display: block;
+	width: 90px;
+	float: left;
+}
+
+label.large
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+img {
+	border: none;	
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+html, body{
+   margin: 0px;
+   padding: 0px;
+   outline: 0px;
+   height: 100%;
+}
+
+#page{
+   height: 100%;
+   width: 100%;
+}
+
+.page{
+   height: 100%;
+   width: 100%;
+}
+
+h1{
+	font-size:40px;
+	color: #a7231e;
+	text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.transparent{
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+}
+
+.beige{
+	color:#f6e7a2;
+}
+
+.rouge{
+	color:#a7231e;
+}
+
+.vert{
+	color:#416833;
+}
+
+.fond_b{
+	background-color:#f6e7a2;
+}
+
+.fond_r{
+	background-color:#a7231e;
+}
+
+.fond_v{
+	background-color:#416833;
+}
+
+.fond_w{
+	background-color:#FFFFFF;
+}
+
+.thumb {
+ position:relative; 
+ top:0;
+ left:0; 
+ }
+  
+.thumb a {
+ margin:0;
+ text-decoration:none;
+ }
+
+.thumb a .grand {
+ display:block;
+ position:absolute; 
+ width:0; 
+ }	  
+  
+.thumb a:hover .grand { 
+ position:absolute;
+ z-index:10;
+ top:200px;
+ right:240px;
+ width:auto;
+ }
